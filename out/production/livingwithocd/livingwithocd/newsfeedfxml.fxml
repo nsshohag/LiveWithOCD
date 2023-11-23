@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720" prefWidth="781.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livingwithocd.newsfeed">
+   <children>
+      <AnchorPane prefHeight="102.0" prefWidth="807.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="103.0" fitWidth="169.0" layoutX="330.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@forum.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="logout_button" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="705.0" layoutY="17.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0" style="-fx-background-color: #00acee;" text="LOGOUT" textFill="WHITE" underline="true" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="label_welcome" alignment="CENTER" layoutX="14.0" layoutY="17.0" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: #00acee;" text="Welcome Sadat" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="username_button" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="608.0" layoutY="17.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #00acee;" text="username" textFill="WHITE" underline="true" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="content_area" editable="false" layoutX="347.0" layoutY="374.0" prefHeight="174.0" prefWidth="452.0" wrapText="true" />
+      <Button fx:id="nextid" layoutX="492.0" layoutY="581.0" mnemonicParsing="false" text="Next">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="437.0" layoutY="581.0" mnemonicParsing="false" text="Previous">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="text_area" layoutX="347.0" layoutY="186.0" prefHeight="134.0" prefWidth="392.0" promptText="Share Your Post" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></TextArea>
+      <Label alignment="CENTER" layoutX="350.0" layoutY="137.0" prefHeight="35.0" prefWidth="132.0" text="Create Post:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="post_button" layoutX="747.0" layoutY="186.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="52.0" text="Post">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Hyperlink fx:id="link1" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="320.0" prefHeight="23.0" prefWidth="146.0" text="what is ocd ?" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="link2" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="349.0" prefHeight="21.0" prefWidth="127.0" text="Who Gets OCD?" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="link3" alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="383.0" prefHeight="21.0" prefWidth="127.0" text="What Causes OCD?" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="link4" alignment="CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="415.0" prefHeight="23.0" prefWidth="162.0" text="How is OCD Diagnosed?" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="link5" alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="450.0" prefHeight="21.0" prefWidth="127.0" text="How is OCD Treated?" underline="true" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="62.0" layoutY="274.0" prefHeight="35.0" prefWidth="132.0" text="Articles :">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

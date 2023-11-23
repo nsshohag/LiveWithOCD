@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livingwithocd.SignUpController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00ffff;">
+            <children>
+                <ImageView fitHeight="287.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@logo.jpg" />
+                    </image></ImageView>
+                <Label layoutX="58.0" layoutY="352.0" prefHeight="28.0" prefWidth="131.0" text="nsshohag@support.com" />
+            <Label alignment="CENTER" layoutX="53.0" layoutY="378.0" prefHeight="17.0" prefWidth="142.0" text="Copyright©Nazmus Sadat" />
+            <Label alignment="CENTER" layoutX="27.0" layoutY="296.0" prefHeight="40.0" prefWidth="149.0" text="OCD Community">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="403.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <Button fx:id="button_login" layoutX="210.0" layoutY="344.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" style="-fx-background-color: #FFFFFF;" text="LOGIN" textFill="BLUE" underline="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+                <TextField fx:id="tf_username" layoutX="149.0" layoutY="186.0" />
+                <TextField fx:id="tf_password" layoutX="149.0" layoutY="235.0" />
+                <Label alignment="CENTER" layoutX="31.0" layoutY="186.0" prefHeight="28.0" prefWidth="82.0" text="USERNAME">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="31.0" layoutY="235.0" prefHeight="25.0" prefWidth="91.0" text="PASSWORD">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="22.0" layoutY="344.0" prefHeight="28.0" prefWidth="119.0" text="Already a user ?">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="button_signup" layoutX="141.0" layoutY="299.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" style="-fx-background-color: #00acee;" text="SIGNUP" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Label alignment="CENTER" layoutX="31.0" layoutY="141.0" prefHeight="25.0" prefWidth="72.0" text="NAME">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_name" layoutX="149.0" layoutY="138.0" />
+            <ImageView fitHeight="75.0" fitWidth="176.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="131.0" fitWidth="203.0" layoutX="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@signup1.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="password_cons" alignment="CENTER" layoutX="101.0" layoutY="268.0" prefHeight="17.0" prefWidth="244.0" textFill="RED" />
+            </children></AnchorPane>
+    </children>
+</HBox>

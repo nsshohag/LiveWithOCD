@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livingwithocd.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00ffff;">
+         <children>
+            <ImageView fitHeight="287.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.jpg" />
+               </image></ImageView>
+            <Label layoutX="58.0" layoutY="378.0" prefHeight="17.0" prefWidth="149.0" text="Copyright©Nazmus Sadat" />
+            <Label alignment="CENTER" layoutX="12.0" layoutY="302.0" prefHeight="28.0" prefWidth="178.0" text="OCD Community" textFill="#0c0705">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="link" contentDisplay="CENTER" layoutX="54.0" layoutY="350.0" prefHeight="28.0" prefWidth="149.0" text="nsshohag@support.com">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Hyperlink>
+            <MenuBar fx:id="menubar" layoutY="0">
+              <menus>
+                <Menu fx:id="menu" mnemonicParsing="false" text="Menu">
+                  <items>
+                    <MenuItem fx:id="menuitemabout" mnemonicParsing="false" text="About" />
+                        <MenuItem fx:id="menuitemclose" mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="403.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="button_login" alignment="CENTER" layoutX="115.0" layoutY="285.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="82.0" style="-fx-background-color: #00acee;" text="LOGIN" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <TextField fx:id="tf_username" layoutX="156.0" layoutY="166.0" />
+            <TextField fx:id="tf_password" layoutX="156.0" layoutY="225.0" />
+            <Label alignment="CENTER" layoutX="29.0" layoutY="164.0" prefHeight="28.0" prefWidth="82.0" text="USERNAME">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="24.0" layoutY="225.0" prefHeight="25.0" prefWidth="91.0" text="PASSWORD">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="30.0" layoutY="343.0" prefHeight="28.0" prefWidth="102.0" text="Not a user ?">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_signup" layoutX="199.0" layoutY="338.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="82.0" style="-fx-background-color: #FFFFFF;" text="SIGNUP" textFill="BLUE" underline="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Button>
+            <ImageView fx:id="hyperlink" fitHeight="160.0" fitWidth="373.0" layoutX="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@login.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</HBox>

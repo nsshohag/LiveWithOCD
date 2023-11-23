@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livingwithocd.SignUpController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00ffff;">
+            <children>
+                <ImageView fitHeight="287.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@logo.jpg" />
+                    </image></ImageView>
+                <Label layoutX="58.0" layoutY="352.0" prefHeight="28.0" prefWidth="131.0" text="nsshohag@support.com" />
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="403.0">
+            <children>
+                <Button fx:id="button_login" layoutX="183.0" layoutY="323.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" text="LOGIN" />
+                <TextField fx:id="tf_username" layoutX="163.0" layoutY="127.0" />
+                <TextField fx:id="tf_password" layoutX="163.0" layoutY="175.0" />
+                <Label alignment="CENTER" layoutX="40.0" layoutY="125.0" prefHeight="28.0" prefWidth="82.0" text="USERNAME">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="36.0" layoutY="175.0" prefHeight="25.0" prefWidth="91.0" text="PASSWORD">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="36.0" layoutY="323.0" prefHeight="28.0" prefWidth="119.0" text="Already a user ?">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="button_signup" layoutX="114.0" layoutY="245.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="82.0" text="SIGNUP" />
+            <Label alignment="CENTER" layoutX="40.0" layoutY="81.0" prefHeight="25.0" prefWidth="72.0" text="NAME">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_name" layoutX="163.0" layoutY="81.0" />
+            </children></AnchorPane>
+    </children>
+</HBox>

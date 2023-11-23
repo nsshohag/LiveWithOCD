@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="689.0" prefWidth="1280" style="-fx-background-color: #ebf0f2;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="livingwithocd.WebViewController">
+   <children>
+      <ImageView fx:id="myprofilepic" fitHeight="355.0" fitWidth="510.0" layoutX="0" layoutY="0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@DSC02999DP.jpg" />
+         </image>
+      </ImageView>
+      <WebView fx:id="mywebview" layoutX="510.0" layoutY="117.0" prefHeight="577.0" prefWidth="770.0" />
+      <Button fx:id="reload_button" layoutX="842.0" layoutY="649.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="106.0" text="Reload">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="backtologin" alignment="CENTER" layoutX="0" layoutY="0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #00acee;" text="Back To Log In Page" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
